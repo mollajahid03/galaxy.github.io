@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(abc.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position: center; 
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 5px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 3px 10px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000
+}
+.text{
+	float: left;
+	width: 80px;
+	height: 80px;
+	color:#00FF00;
+	padding: 10px 20px 
+}
+.menu-bar{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #fff;
+	font-size: 45px;
+}
+.button{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	text-decoration: none;
+	color: #fff;
+	padding: 3px 10px;
+	border: 1px solid #fff;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000
+}
+
+.sub-main-1{
+	border:1px;
+	display: none;
+	width: 100px;
+	height: -15px;
+}
+.menu-bar ul li:hover .sub-main-1{
+	display: block;
+	position: absolute;
+	background-color: rgba(#958AE9);
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.menu-bar ul li:hover .sub-main-1{
+	display: block;
+	margin: 15px;
+}
+.menu-bar ul li:hover .sub-main-1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #000;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-main-1 ul li:last-child{
+	border-bottom: none
+}
+
+.sub-main-2{
+	border:1px;
+	display: none;
+	width: 15px;
+	height: -15px;
+}
+.menu-bar ul li:hover .sub-main-2{
+	display: block;
+	position: absolute;
+	background-color: rgba(#958AE9);
+	margin-top: 10px;
+	margin-left: -10px;
+}
+.menu-bar ul li:hover .sub-main-2{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-main-2 ul li{
+	width: 150px;
+	padding: 5px;
+	border-bottom: 1px dotted #000;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-main-2 ul li:last-child{
+	border-bottom: none
+}
+.sub-main-3{
+	display: none;
+}
+.Home:hover .sub-main-3{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background-color: red;
+}
+.sub-main-4{
+	display: none;
+}
+.home:hover .sub-main-4{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background-color: red;
+}
+.creator{
+	color: #fff;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-decoration-style: underline;
+
+}
